@@ -1,11 +1,24 @@
 {
   "name": "lei-cli",
-  "version": "1.0.0",
-  "description": "lei formwork cli",
+  "version": "0.1.0",
+  "description": "lei框架脚手架",
   "main": "index.js",
+  "bin": "bin/lei",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zouzhenxing/lei-cli.git"
+  },
+  "keywords": [
+    "lei",
+    "express",
+    "mysql"
+  ],
+  "author": "zouzhenxing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zouzhenxing/lei/issues"
+  }
 }
