@@ -1,9 +1,11 @@
 {
   "name": "lei-cli",
-  "version": "0.1.0",
+  "version": "0.2.2",
   "description": "lei框架脚手架",
   "main": "index.js",
-  "bin": "bin/lei",
+  "bin": {
+    "lei": "bin/lei.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,6 +15,7 @@
   },
   "keywords": [
     "lei",
+    "lei-cli",
     "express",
     "mysql"
   ],
@@ -20,5 +23,11 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/zouzhenxing/lei/issues"
+  },
+  "dependencies": {
+    "colors": "^1.1.2",
+    "ejs": "^2.5.1",
+    "inquirer": "^1.1.3",
+    "mysql": "^2.11.1"
   }
 }
